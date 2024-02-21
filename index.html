@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Juan Francisco Galván">
+  <meta name="date" content="28/08/2023">
+  <meta name="description" content="Personal portfolio by freelancer developer">
+  <meta name="keywords" content="portfolio, e-commerce, services, development, freelance">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="build/normalize.css" as="style">
+  <link rel="preload" href="build/style.css" as="style">
+  <link rel="stylesheet" href="build/normalize.css">
+  <link rel="stylesheet" href="build/style.css">
+  <title>Freelance Developer</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Freelance <span>Developer</span></h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="#services">Services</a>
+      <a href="#">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Design & Development</h2>
+      <div class="location">
+        <img src="src/images/icon1.svg" alt="Location Icon">
+        <p>Argentina</p>
+      </div>
+      <a href="mailto:" class="button">Mail me</a>
+    </div>
+  </section>
+  <main class="container shadow">
+    <section class="services" id="services">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <section class="service">
+          <h3>Websites</h3>
+          <div class="icons">
+            <img src="src/images/icon2.svg" alt="Website icon">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit animi voluptate nulla laborum, commodi excepturi neque doloremque nisi.</p>
+        </section>
+        <!-- Service 2 -->
+        <section class="service">
+          <h3>Mobile</h3>
+          <div class="icons">
+            <img src="src/images/icon3.svg" alt="Mobile icon">
+            <img src="src/images/icon4.svg" alt="Mobile icon">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit animi voluptate nulla laborum, commodi excepturi neque doloremque nisi.</p>
+        </section>
+        <!-- Service 3 -->
+        <section class="service">
+          <h3>E-Commerce</h3>
+          <div class="icons">
+            <img src="src/images/icon5.svg" alt="E-Commerce icon">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit animi voluptate nulla laborum, commodi excepturi neque doloremque nisi.</p>
+        </section>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <form class="form">
+        <fieldset>
+          <legend>Contact me by completing the form</legend>
+          <div class="fields">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" autocomplete="off" placeholder="Name" class="input">
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" autocomplete="off" placeholder="Phone" class="input">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" autocomplete="off" placeholder="Email" class="input">
+            </div>
+            <div class="field">
+              <label for="comment">Comment</label>
+              <textarea id="comment" class="input"></textarea>
+            </div>
+          </div>
+          <div class="align">
+            <input type="submit" value="Send" class="button">
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Created by Juan Franciso Galván</p>
+  </footer>
+</body>
+</html>
