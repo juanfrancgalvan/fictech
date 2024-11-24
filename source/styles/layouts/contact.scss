@@ -1,0 +1,62 @@
+.contact h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form {
+  background-color: #757575;
+  width: min(40rem, 100%);
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.form fieldset {
+  border: none;
+}
+
+.form legend {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.fields {
+  display: grid;
+  gap: 1rem;
+}
+
+.field:nth-child(3),
+.field:nth-child(4) {
+  grid-column: 1 / 3;
+}
+
+.field {
+  margin-bottom: 0.5rem;
+}
+
+.field label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.field textarea {
+  height: 15rem;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}
